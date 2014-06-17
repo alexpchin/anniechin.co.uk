@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------------------------------------------
+
+* Filename				style.css
+* Description				Global CSS
+* Version				1.0.0 (2010-01-01) YYYY-MM-DD
+* Website				http://www.microwavemedia.co.uk/
+* Author				Alex Chin
+
+==STRUCTURE=============================================================================================
+
+* Page width			980px
+* Page body width		980px
+* Number of columns		1
+
+==ANCHORS===============================================================================================
+
+Use these to jump to the relevant section in the CSS document. Simply copy and paste the anchor name of the section you need to edit then FIND.
+
+
+------------------------------------------------------------------------------------------------------*/
+
+/* $_reset */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; }
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th { font-size: 1em; font-weight: normal; font-style: normal; }
+ul,ol { list-style: none; }
+fieldset,img { border: none; }
+caption, th { text-align: left; }
+
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width:100%;
+	height: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+	padding: 0;
+	font-size:12px;
+        color:#000;
+}
+
+#page {
+	width:980px;
+	height: 100%;
+	margin: 40px auto 0px auto;
+}
+
+#logo {
+	Width: 980px;
+ 	height: 75px;
+	margin-bottom:10px;
+	background-image:url('http://www.anniechin.com/images/logo.jpg');
+ 	background-repeat:no-repeat;
+}
+
+#text {
+	width:980px;
+        margin-bottom:30px;
+}
+
+#cu3er-container {
+	width:980px; 
+	outline:0;
+}
